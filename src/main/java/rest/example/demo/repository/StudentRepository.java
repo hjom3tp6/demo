@@ -4,7 +4,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import rest.example.demo.entity.Student;
 
 /**
- * @author Mark
+ * StudentRepository.
+ *
+ * @author Mark.Cui
  */
 public interface StudentRepository extends JpaRepository<Student, Long> {
 
